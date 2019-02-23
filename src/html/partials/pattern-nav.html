@@ -1,14 +1,14 @@
 {{# patternTypes }}
-  <li><a class="sg-acc-handle">{{ patternTypeUC }}</a><ol class="sg-acc-panel">
+  <li data-pattern-name="{{ patternTypeUC }}"><a class="sg-acc-handle">{{ patternTypeUC }}</a><ol class="sg-acc-panel">
   {{# patternTypeItems }}
-    <li><a class="sg-acc-handle">{{ patternSubtypeUC }}</a><ol class="sg-acc-panel sg-sub-nav">
+    <li data-pattern-name="{{ patternSubtypeUC }}"><a class="sg-acc-handle">{{ patternSubtypeUC }}</a><ol class="sg-acc-panel sg-sub-nav">
     {{# patternSubtypeItems }}
-      <li><a href="patterns/{{ patternPath }}" class="sg-pop  {{# patternState }}sg-pattern-state {{ patternState }}{{/ patternState }}" data-patternpartial="{{ patternPartial }}">{{ patternName }}</a></li>
+      <li data-pattern-name="{{ patternName }}"><a href="patterns/{{ patternPath }}" class="sg-pop  {{# patternState }}sg-pattern-state {{ patternState }}{{/ patternState }}" data-patternpartial="{{ patternPartial }}">{{ patternName }}</a></li>
     {{/ patternSubtypeItems }}
     </ol></li>
   {{/ patternTypeItems }}
   {{# patternItems }}
-    <li><a href="patterns/{{ patternPath }}" class="sg-pop {{# patternState }}sg-pattern-state {{ patternState }}{{/ patternState }}" data-patternpartial="{{ patternPartial }}">{{ patternName }}</a></li>
+    <li data-pattern-name="{{ patternName }}"><a href="patterns/{{ patternPath }}" class="sg-pop {{# patternState }}sg-pattern-state {{ patternState }}{{/ patternState }}" data-patternpartial="{{ patternPartial }}">{{ patternName }}</a></li>
   {{/ patternItems }}
   </ol></li>
 {{/ patternTypes }}
