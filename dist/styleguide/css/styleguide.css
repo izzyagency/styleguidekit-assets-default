@@ -188,8 +188,6 @@
           position: absolute;
           top: 2em;
           left: 0; } }
-    .sg-nav > li:last-child {
-      display: none; }
   .sg-nav a {
     display: block; }
 
@@ -256,14 +254,11 @@
   .sg-acc-panel li {
     background: #222; }
     .sg-acc-panel li:last-child {
-      display: none;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px; }
       .sg-acc-panel li:last-child a {
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px; }
-    .sg-acc-panel li#sg-find {
-      display: block; }
   .sg-acc-panel a {
     display: block; }
   .sg-acc-panel.active {
