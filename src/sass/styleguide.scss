@@ -273,6 +273,10 @@ $sg-border-radius-med : 6px;
             }
 
         }
+
+        &:last-child {
+            display: none;
+        }
     }
 
     /**
