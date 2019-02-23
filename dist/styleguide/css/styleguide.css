@@ -262,6 +262,8 @@
       .sg-acc-panel li:last-child a {
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px; }
+    .sg-acc-panel li#sg-find {
+      display: block; }
   .sg-acc-panel a {
     display: block; }
   .sg-acc-panel.active {

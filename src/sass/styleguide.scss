@@ -367,6 +367,10 @@ $sg-border-radius-med : 6px;
                 border-bottom-right-radius: $sg-border-radius-med;
             }
         }
+
+        &#sg-find {
+            display: block;
+        }
     }
 
     /**
