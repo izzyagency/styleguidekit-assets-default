@@ -256,6 +256,7 @@
   .sg-acc-panel li {
     background: #222; }
     .sg-acc-panel li:last-child {
+      display: none;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px; }
       .sg-acc-panel li:last-child a {

@@ -358,6 +358,7 @@ $sg-border-radius-med : 6px;
         background: $sg-gray-dark;
 
         &:last-child {
+            display: none;
             border-bottom-left-radius: $sg-border-radius-med;
             border-bottom-right-radius: $sg-border-radius-med;
 
